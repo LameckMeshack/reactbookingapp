@@ -13,7 +13,7 @@ const List = () => {
   const [date, setDate] = useState(location.state.date);
   const [options, setOptions] = useState(location.state.options);
   const [openDate, setOpenDate] = useState(false);
-
+  console.log(location);
   return (
     <div>
       <Navbar />
